@@ -9,18 +9,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     </head> 
 <body> 
-    <div class="header">
+    <header>
+        <input type="text" name="" id="input-percentage" onChange="updateUi()">
         <button onclick="takeshot()">Take Screenshot</button>
-    </div>
+    </header>
     <div class="container">
         <div class="preview-container">
             <h1 class="titles">Preview:</h1> 
             <div id="photo">
                 <div class="range-container">
-                    <div class="teste"></div>
+                    <div id="slider"></div>
                 </div>
-                <p>18%</p>
-                <img class="svg" src="./assets/homeasset.png">
+                <input type="text" id="output-p" value=""><span>%</span>
+                <img class="icon" src="./assets/homeasset.png">
             </div> 
         </div>
         
@@ -31,4 +32,8 @@
         </div>
     </div>
 </body> 
+
+<script>
+    
+</script>
 </html> 

@@ -4,7 +4,7 @@
  
  #photo { 
      padding: 4px; 
-     width: 300px;
+     width: 400px;
      height: 200px;
 
      margin: 5px;
@@ -17,10 +17,42 @@
 
 } 
 
-.teste{
-    width: 45px;
-    height: 15px;
-    background-color: green;
+.icon{
+    margin-left: 35px;
+    height: 60px;
+}
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    background-color: #5b3b8e;
+
+    width: 800px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#output-p{
+    width: 25px;
+    border: none;
+
+    display: flex;
+    text-align: center
+}
+
+.preview-container, .output-container{
+    margin: 40px;
+
+}
+
+#slider{
+    /* width: 45px; */
+    height: 15px; 
+    background-color: #5b3b8e;
     border-radius: 8px;
 }
 
@@ -28,10 +60,12 @@
    width: 100px;
    height: 15px;
    border-radius: 8px;
+
+   margin-right: 10px;
 }
 
 .titles{
-    font-size: 20px;
+    font-size: 30px;
 }
  
 .container{
@@ -43,7 +77,7 @@
 #blank { 
     /* border: 1px solid black;  */
     padding: 4px; 
-    width: 300px;
+    width: 400px;
     height: 200px;
     margin: 5px;
 } 
@@ -51,10 +85,6 @@
 .disappear{
     border: none; 
     display: none
-}
-
-.svg{
-    height: 60px;
 }
 
 #output{
