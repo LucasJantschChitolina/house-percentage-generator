@@ -19,4 +19,8 @@ function updateUi(){
 
     document.getElementById("output-p").value = slidervalue;
     document.getElementById("slider").style.width = `${slidervalue}px`;
-}
+};
+
+
+
+
