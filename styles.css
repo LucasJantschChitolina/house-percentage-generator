@@ -1,6 +1,12 @@
  *{
     font-family: 'Inter', sans-serif;
  }
+
+ body {
+     background: url(https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
  
  #photo { 
      padding: 4px; 
@@ -14,7 +20,7 @@
      justify-content: center;
      align-items: center;
 
-
+     background-color: #fff
 } 
 
 .icon{
@@ -26,7 +32,13 @@ header{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-    background-color: #5b3b8e;
+
+    background: rgba( 255, 255, 255, 0.00 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.0px );
+    -webkit-backdrop-filter: blur( 5.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 
     width: 800px;
     height: 100px;
@@ -46,11 +58,41 @@ header{
 
 .preview-container, .output-container{
     margin: 40px;
+    background: rgba( 255, 255, 255, 0.00 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.0px );
+    -webkit-backdrop-filter: blur( 5.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 }
 
+/* HEADER STYLE */
+#screenshot-button{
+    height: 45px;
+    width: 150px;
+    background-color: #f5f5f5;
+    border: 0;
+
+    transition: 900ms;
+}
+
+#screenshot-button:hover{
+    cursor: pointer;
+    background-color: rgb(44, 44, 44);
+    color: #fff;
+}
+
+#input-percentage{
+    height: 43px;
+    width: 150px;
+    border: 0;
+
+    padding-left: 15px;
+}
+
 #slider{
-    /* width: 45px; */
+    width: 0px;
     height: 15px; 
     background-color: #5b3b8e;
     border-radius: 8px;
@@ -65,6 +107,7 @@ header{
 }
 
 .titles{
+    margin-left: 20px;
     font-size: 30px;
 }
  
@@ -89,4 +132,5 @@ header{
 
 #output{
     width: 100%;
+    margin: 5px;
 }

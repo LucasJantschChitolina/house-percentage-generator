@@ -11,7 +11,7 @@
 <body> 
     <header>
         <input type="text" name="" id="input-percentage" onChange="updateUi()">
-        <button onclick="takeshot()">Take Screenshot</button>
+        <button onclick="takeshot()" id="screenshot-button">Printar a Imagem</button>
     </header>
     <div class="container">
         <div class="preview-container">
@@ -20,7 +20,7 @@
                 <div class="range-container">
                     <div id="slider"></div>
                 </div>
-                <input type="text" id="output-p" value=""><span>%</span>
+                <input type="text" id="output-p" value="0"><span>%</span>
                 <img class="icon" src="./assets/homeasset.png">
             </div> 
         </div>
